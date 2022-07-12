@@ -1,6 +1,6 @@
-class v1::GreetingsController < ApplicationController
+class V1::GreetingsController < ApplicationController
   def index
-    @greetings = Greeting.find(Greeting.pluck(:id).sample)
+    @greetings = Greeting.all
     render json: { greetings: @greetings }.to_json
   end
 end
