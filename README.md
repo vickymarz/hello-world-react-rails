@@ -1,19 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Budget App
+# React-Rails Practise 
 
-A Budget-app is mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+This is a project for getting myself acquainted with integrating a rails app with react as one full-stack web application.
 
-
-## Live Version
-
-[See Live Version](https://evening-caverns-47353.herokuapp.com/)
-[Demo Video](https://www.loom.com/share/4a087545c28044feb7ce7046d2ad37cd)
 ## Built With
 
 - Ruby
 - Rails
 - Postgresql
+- React
+- Redux
 
 ## Getting Started
 
@@ -22,11 +19,11 @@ To get a local copy up and running follow these simple example steps.
 
 Start by cloning the repository.
 
-`https://github.com/vickymarz/budget-app.git`
+`https://github.com/vickymarz/hello-world-react-rails.git`
 
 Navigate to the created folder.
 
-`cd budget-app`
+`cd hello-world-react-rails.git`
 
 ### Prerequisites
 
