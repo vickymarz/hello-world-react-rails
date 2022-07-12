@@ -10,21 +10,19 @@ class Greeting extends React.Component {
 		console.log(this.props);
 		const { greetings } = this.props
 		let greetUsers = greetings['greetings'] 
-		greetUsers = greetUsers ? greetUsers : []
+	  greetUsers = greetUsers ? greetUsers : []
 		console.log(greetUsers)
-		const GreetingsList = greetUsers.map(greet => {
-			return (
-				<List.Item>
-					<List.Content>
-						<List.Header>{greet.greeting}</List.Header>
-					</List.Content>
-				</List.Item>
-			)
-		})
+	
 		return (
 			<>
-				<h1 className='app-name'>Greetings App</h1>
-				<ul className='greetings'>{GreetingsList}</ul>
+				<h1>Greetings App</h1>
+				<ul>
+					<List.Item>
+						<List.Content>
+							<List.Header>{greetUsers.greeting}</List.Header>
+						</List.Content>
+					</List.Item>
+				</ul>
 				<button onClick={() => this.props.getGreetingList()}>Greet</button>
 			</>
 		)
