@@ -23,7 +23,7 @@ Start by cloning the repository.
 
 Navigate to the created folder.
 
-`cd hello-world-react-rails.git`
+`cd hello-world-react-rails`
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ To run tests enter `rspec` command on your terminal
 👤 **Okoroji Victor aka Vickymarz**
 
 - GitHub: [@githubhandle](https://github.com/vickymarz)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okoroji-victor-ebube-8791741a0)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victorebubeokoroji/)
 
 
 ## 🤝 Contributing
@@ -62,7 +62,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
 
 ## 📝 License
 
